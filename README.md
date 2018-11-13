@@ -1,6 +1,15 @@
-# LiquidataChallenge
+# interview-challenge
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+
+# To run
+
+Navigate to `cd dist/liquidata-challenge`
+Run `http-server -o`
+
+## Install http-server
+
+Run `npm install http-server -g`
 
 ## Development server
 
