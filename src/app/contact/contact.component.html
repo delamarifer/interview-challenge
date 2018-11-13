@@ -1,0 +1,25 @@
+<section class="contact">
+  <h1 class="title">CONTACT US</h1>
+  <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+      <div class="form-container">
+          <mat-form-field>
+            <input type="text" formControlName="email" matInput placeholder="Email">
+          </mat-form-field>
+          <mat-form-field>
+            <input type="text" formControlName="subject" matInput placeholder="Subject">
+          </mat-form-field>
+          <mat-form-field>
+            <textarea type="text" formControlName="body" matInput placeholder="Message"></textarea>
+          </mat-form-field>
+      </div>
+      <input type="submit" value="Send message" class="button">
+    </form>
+  </section>
+
+  
+
+
+
+  
+
+  

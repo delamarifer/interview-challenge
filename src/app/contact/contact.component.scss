@@ -1,0 +1,32 @@
+.button {
+    background: rgb(29,175,236);
+    border: none;
+    color: black;
+
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+.title{
+    color: rgb(109,110,113);
+}
+
+.contact {
+    max-width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    textarea{
+        min-height: 200px;
+    }
+      
+    .form-container > * {
+        width: 100%;
+    }
+}
